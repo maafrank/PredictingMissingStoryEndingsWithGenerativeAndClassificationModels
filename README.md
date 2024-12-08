@@ -34,7 +34,3 @@ This repository contains the code and resources for the paper titled *Predicting
 1. Explore **data/** to view the datasets used in training and evaluation.
 2. Use **notebooks/** for step-by-step workflows and analyses.
 3. Refer to **results/** for final outputs, visualizations, and presentations.
-
----
-
-This structure keeps it neat and organized, while providing clear guidance to users exploring the repository.

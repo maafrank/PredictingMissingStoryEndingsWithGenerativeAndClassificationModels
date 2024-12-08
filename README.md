@@ -21,6 +21,38 @@ This repository contains the code and resources for the paper titled *Predicting
 
 
 ## Directory Structure
+```plaintext
+PredictingMissingStoryEndingsWithGenerativeAndClassificationModels.pdf
+├── README.md
+├── data
+│   ├── ROCStories__spring2016 - ROCStories_spring2016.csv
+│   ├── ROCStories_winter2017 - ROCStories_winter2017.csv
+│   ├── cloze_test_test__spring2016 - cloze_test_ALL_test.csv
+│   ├── cloze_test_test__winter2018-cloze_test_ALL_test.csv
+│   ├── cloze_test_val__spring2016 - cloze_test_ALL_val.csv
+│   ├── cloze_test_val__winter2018-cloze_test_ALL_val.csv
+│   ├── combined_narrative_stories.csv
+│   ├── generated_narratives_llama.csv
+│   ├── generated_narratives_mistral.csv
+│   └── sentences_with_labels.csv
+├── notebooks
+│   ├── ClassificationModel.ipynb
+│   ├── CreateClassificationData.ipynb
+│   ├── EDA.ipynb
+│   ├── EvaluateBaseline.ipynb
+│   ├── LlamaBaseline.ipynb
+│   ├── MistralBaseline.ipynb
+│   └── NovelClassificationModel.ipynb
+└── results
+    ├── NovelResults.csv
+    ├── PredictingMissingStoryEndingsWithGenerativeAndClassificationModels.pptx
+    ├── ProjectProposal.docx
+    ├── bert_dense_classifier.png
+    ├── class_distribution.png
+    ├── model_flow_diagram.png
+    ├── model_flow_no_dense_diagram.png
+    └── results.csv
+```
 
 ### Explanation of Folders:
 - **data/**: Contains the datasets used in the project, including the original ROCStories datasets, narrative combinations, and labeled data.

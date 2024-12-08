@@ -1,4 +1,4 @@
-# PredictingMissingStoryEndingsWithGenerativeAndClassificationModels
+# Predicting Missing Story Endings With Generative And Classification Models
 MIDS w266 NLP Final Project
 
 This repository contains the code and resources for the paper titled *Predicting Missing Story Endings with Generative and Classification Models*. The project explores the challenge of completing the final sentence of a five-sentence story using generative models combined with classification-based evaluation.

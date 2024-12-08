@@ -29,8 +29,3 @@ This repository contains the code and resources for the paper titled *Predicting
 - **LICENSE**: The licensing information for this repository.
 - **PredictingMissingStoryEndingsWithGenerativeAndClassificationModels.pdf**: The final paper for the project.
 - **README.md**: This documentation file.
-
-### How to Use:
-1. Explore **data/** to view the datasets used in training and evaluation.
-2. Use **notebooks/** for step-by-step workflows and analyses.
-3. Refer to **results/** for final outputs, visualizations, and presentations.

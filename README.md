@@ -18,8 +18,7 @@ This repository contains the code and resources for the paper titled *Predicting
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/PredictingMissingStoryEndingsWithGenerativeAndClassificationModels.git
-
-
+   
 ## Directory Structure
 ```plaintext
 PredictingMissingStoryEndingsWithGenerativeAndClassificationModels.pdf

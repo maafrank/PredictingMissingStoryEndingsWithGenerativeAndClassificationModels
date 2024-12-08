@@ -18,4 +18,57 @@ This repository contains the code and resources for the paper titled *Predicting
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/PredictingMissingStoryEndingsWithGenerativeAndClassificationModels.git
-```
+
+
+## Directory Structure
+
+PredictingMissingStoryEndingsWithGenerativeAndClassificationModels
+    ├── LICENSE
+    ├── PredictingMissingStoryEndingsWithGenerativeAndClassificationModels.pdf
+    ├── README.md
+    ├── data
+    │   ├── ROCStories__spring2016 - ROCStories_spring2016.csv
+    │   ├── ROCStories_winter2017 - ROCStories_winter2017.csv
+    │   ├── cloze_test_test__spring2016 - cloze_test_ALL_test.csv
+    │   ├── cloze_test_test__winter2018-cloze_test_ALL_test.csv
+    │   ├── cloze_test_val__spring2016 - cloze_test_ALL_val.csv
+    │   ├── cloze_test_val__winter2018-cloze_test_ALL_val.csv
+    │   ├── combined_narrative_stories.csv
+    │   ├── generated_narratives_llama.csv
+    │   ├── generated_narratives_mistral.csv
+    │   └── sentences_with_labels.csv
+    ├── notebooks
+    │   ├── ClassificationModel.ipynb
+    │   ├── CreateClassificationData.ipynb
+    │   ├── EDA.ipynb
+    │   ├── EvaluateBaseline.ipynb
+    │   ├── LlamaBaseline.ipynb
+    │   ├── MistralBaseline.ipynb
+    │   └── NovelClassificationModel.ipynb
+    └── results
+        ├── NovelResults.csv
+        ├── PredictingMissingStoryEndingsWithGenerativeAndClassificationModels.pptx
+        ├── ProjectProposal.docx
+        ├── bert_dense_classifier.png
+        ├── class_distribution.png
+        ├── model_flow_diagram.png
+        ├── model_flow_no_dense_diagram.png
+        └── results.csv
+
+
+### Explanation of Folders:
+- **data/**: Contains the datasets used in the project, including the original ROCStories datasets, narrative combinations, and labeled data.
+- **notebooks/**: Jupyter notebooks for experimentation and analysis. Each notebook corresponds to a specific aspect of the project (e.g., baseline evaluation, exploratory data analysis).
+- **results/**: Outputs, visualizations, and project artifacts such as generated results and model flow diagrams.
+- **LICENSE**: The licensing information for this repository.
+- **PredictingMissingStoryEndingsWithGenerativeAndClassificationModels.pdf**: The final paper for the project.
+- **README.md**: This documentation file.
+
+### How to Use:
+1. Explore **data/** to view the datasets used in training and evaluation.
+2. Use **notebooks/** for step-by-step workflows and analyses.
+3. Refer to **results/** for final outputs, visualizations, and presentations.
+
+---
+
+This structure keeps it neat and organized, while providing clear guidance to users exploring the repository.
